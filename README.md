@@ -1,17 +1,17 @@
-# 🛡️ FraudNet AI - Advanced Fraud Detection Suite
+# FraudNet AI - Advanced Fraud Detection Suite
 
 A comprehensive fraud detection system powered by machine learning, featuring real-time phishing URL detection and credit card fraud analysis.
 
-## ✨ Features
+##  Features
 
-- **🔍 Phishing Detection**: Advanced URL analysis using machine learning to identify malicious websites
-- **💳 Credit Card Fraud Detection**: Sophisticated transaction analysis to detect fraudulent activities
-- **🎨 Modern Web Interface**: Beautiful, responsive frontend with real-time results
-- **🚀 Real-time Processing**: Instant analysis with confidence scores
-- **📊 Visual Analytics**: Interactive charts and statistics
-- **🔒 Secure**: No data storage, all processing done locally
+- ** Phishing Detection**: Advanced URL analysis using machine learning to identify malicious websites
+- ** Credit Card Fraud Detection**: Sophisticated transaction analysis to detect fraudulent activities
+- ** Modern Web Interface**: Beautiful, responsive frontend with real-time results
+- ** Real-time Processing**: Instant analysis with confidence scores
+- ** Visual Analytics**: Interactive charts and statistics
+- ** Secure**: No data storage, all processing done locally
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 FraudNet AI/
@@ -24,7 +24,7 @@ FraudNet AI/
 └── README.md                       # This file
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Option 1: Easy Setup (Recommended)
 ```bash
@@ -50,13 +50,13 @@ python app.py
 streamlit run fraudnetai.py
 ```
 
-## 🌐 Access the Application
+##  Access the Application
 
 Once the server is running, open your web browser and navigate to:
 - **Main Application**: http://localhost:5000
 - **Health Check**: http://localhost:5000/health
 
-## 🔧 API Endpoints
+
 
 ### Phishing Detection
 ```http
@@ -102,7 +102,7 @@ Content-Type: application/json
 }
 ```
 
-## 📊 Model Information
+## Model Information
 
 ### Phishing Detection Model
 - **Algorithm**: Random Forest Classifier
@@ -118,7 +118,7 @@ Content-Type: application/json
 - **Input**: Transaction details
 - **Output**: Fraudulent/Legitimate classification with confidence score
 
-## 🎯 Usage Examples
+##  Usage Examples
 
 ### Phishing Detection
 1. Click "Phishing Detection" button
@@ -136,14 +136,14 @@ Content-Type: application/json
 4. Click "Analyze Transaction"
 5. View fraud analysis results
 
-## 🛠️ Technical Requirements
+##  Technical Requirements
 
 - **Python**: 3.7 or higher
 - **Dependencies**: Flask, pandas, numpy, scikit-learn
 - **Models**: Pre-trained .pkl files
 - **Browser**: Modern web browser with JavaScript enabled
 
-## 🔍 Troubleshooting
+##  Troubleshooting
 
 ### Model Files Missing
 If you see "model not available" errors:
@@ -170,7 +170,7 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt --force-reinstall
 ```
 
-## 🎨 Frontend Features
+##  Frontend Features
 
 - **Responsive Design**: Works on desktop, tablet, and mobile
 - **Dark Theme**: Modern dark UI with gradient effects
@@ -179,21 +179,21 @@ pip install -r requirements.txt --force-reinstall
 - **Form Validation**: Input validation and error handling
 - **Demo Mode**: Fallback simulation when models unavailable
 
-## 🔒 Security Notes
+##  Security Notes
 
 - All processing is done locally
 - No data is stored or transmitted to external servers
 - Models run entirely on your machine
 - CORS enabled for development (disable in production)
 
-## 📈 Performance
+##  Performance
 
 - **Response Time**: < 100ms for most predictions
 - **Memory Usage**: ~50MB with models loaded
 - **Concurrent Users**: Supports multiple simultaneous requests
 - **Scalability**: Can be deployed with gunicorn for production
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -201,11 +201,11 @@ pip install -r requirements.txt --force-reinstall
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Scikit-learn for machine learning algorithms
 - Flask for the web framework
@@ -214,4 +214,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-**FraudNet AI** - Protecting the digital world, one prediction at a time. 🛡️
+**FraudNet AI** - Protecting the digital world, one prediction at a time.
